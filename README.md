@@ -40,11 +40,23 @@ A implementação do semáforo segue o seguinte fluxo:
 3. Callback do temporizador alterna o estado dos LEDs a cada 3 segundos.
 4. Impressão de mensagens na serial a cada 1 segundo dentro do loop principal.
 
-## Simulação e Demonstração
+## Testes
 
-A configuração sugerida para simulação no **Wokwi** pode ser visualizada na Figura 2 do enunciado. Para uma demonstração do funcionamento do projeto, acesse o seguinte link:
+### **1. Teste básico de funcionamento do sistema.**
 
-[Vídeo da simulação](https://www.dropbox.com/scl/fi/6w37qxzdq4ytljqvqzr6h/2025-01-25-17-48-11.mkv?rlkey=yjj1iqcfkx444xigglaxqw81e&dl=0)
+- **Descrição:** Os leds alternam a cada 3 segundos entre as cores vermelho, amarelo e verde. Enquanto isso, a mensagem "Programa em Execução" é exibida na tela a cada 1 segundo.
+
+
+**Teste no Software:**  
+![Demonstração no software](docs/ativ1-def.gif)
+
+**Teste no Hardware:**  
+![Demonstração no hardware](docs/hardware-ativ1.gif)
+
+
+## Vídeo de Demonstração
+
+[Clique aqui](https://youtu.be/cKM7VrmbmIU)
 
 
 ## Instruções de Uso

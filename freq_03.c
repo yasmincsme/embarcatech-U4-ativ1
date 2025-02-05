@@ -18,7 +18,6 @@ void setup_all(void) {
 }
 
 bool timer_callback(struct repeating_timer *rt) {
-    //static int current_led = 0;
 
     for (uint8_t i = 0; i < LEDS; ++i) {
         gpio_put(led_pins[i], 0);
